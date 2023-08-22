@@ -11,14 +11,10 @@ def find_winners(Bidders_details):
     print(Bidders_data)
     print(f"{winner} is the winner of bid price {highest_price}")
 
-
-
 Bidders_data={}
 
 end_of_auction=False
 while not end_of_auction:
-
-
 
     name=input("Enter your Name: ")
     bid_price=int(input("Enter your Bid Price: "))
